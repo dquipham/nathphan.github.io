@@ -1,0 +1,128 @@
+/* Global */
+.container-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-contact{
+
+}
+
+.btn{
+  margin-left: : 25%;
+}
+
+.button{
+  background-color: #ffffff;
+  border: none;
+  color: black;
+}
+
+/* NAV */
+#navbar{
+  display: flex;
+  float: right;
+}
+
+/* HOME SECTION */
+#home {
+  color: #ffffff;
+  height: 100vh;
+}
+
+#home h1 {
+  font-size: 50px;
+  text-align: center;
+}
+#home h3 {
+  font-size: 14px;
+  text-align: center;
+}
+#home hr {
+  width: 300px;
+}
+
+/* ABOUT SECTION */
+#about{
+  background-color: #ffffff;
+}
+
+#about .container{
+  padding: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#about h1{
+  color: f4f4f4;
+}
+
+#about hr{
+  border: 0;
+  border-top: 1px solid #8c8c8c;
+  width: 300px;
+  padding-bottom: 30px;
+}
+
+#about h1, h2, p{
+  text-align: center;
+}
+
+#about .row .fa-bullseye, #about .row .fa-graduation-cap, #about .row .fa-question{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CONTACT SECTION */
+#contact{
+  background: #3B3B3B;
+  color: #ffffff;
+}
+
+#contact h1{
+  text-align: center;
+}
+
+#contact h4{
+  padding-left: 10px;
+}
+
+#contact hr{
+  width: 300px;
+}
+
+#contact .contact-us{
+  padding-left: 40px;
+}
+
+#contact textarea{
+  resize: none;
+}
+
+#contact input, #contact textarea{
+  border: none;
+  background-color: #DCDCDC;
+}
+
+#contact input[type="submit"]{
+  width: 40%;
+  margin-left: 19px;
+  margin-bottom: 10px;
+}
+
+/* FOOTER */
+footer{
+  background-color: #ffffff;
+  text-align: center;
+  padding-top: 20px;
+}
+
+footer a{
+  color: red
+  text-decoration: none;
+}
+
+footer a:hover{
+  color: blue;
+}
