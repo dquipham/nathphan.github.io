@@ -18,11 +18,13 @@
   color: black;
 }
 
+
 /* NAV */
+
 #navbar{
-  display: flex;
   float: right;
 }
+
 
 /* HOME SECTION */
 #home {
