@@ -18,6 +18,18 @@
   color: black;
 }
 
+input, textarea{
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+        box-shadow: 0 0 5px 1px blue;
+    }
+
+input:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
 
 /* NAV */
 
@@ -120,15 +132,8 @@ footer{
   padding-top: 20px;
 }
 
-footer a{
-  color: red
-  text-decoration: none;
-}
-
-footer a:hover{
-  color: blue;
-}
 
 .yelp {
-  color: red;
+  color: #D32323;
+  font-size: 1px;
 }

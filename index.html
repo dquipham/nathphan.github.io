@@ -120,13 +120,13 @@
 
           <form method="post" action="https://formspree.io/nathphan@ucsc.edu">
             <div class="col-md-6 col-sm-6">
-              <p><input type="text" class="form-control" placeholder="Name" name="name"></p>
+              <p><input type="text" class="form-control" placeholder="Name*" name="name" id="username" required></p>
             </div>
             <div class="col-md-6 col-sm-6">
-              <p><input type="text" class="form-control" placeholder="Email" name="email"></p>
+              <p><input type="email" class="form-control" placeholder="Email*" name="email" id="useremail" required></p>
             </div>
             <div class="col-md-12 col-sm-12">
-              <p><textarea class="form-control" rows="8" placeholder="Message" name="message"></textarea></p>
+              <p><textarea class="form-control" rows="8" placeholder="Message*" name="message" id="usermessage"></textarea></p>
             </div>
             <input type="hidden" name="_next" value="thanks.html" />
             <div class"col-md-8 col-sm-6">
@@ -142,7 +142,7 @@
 
     <footer>
       &copy; 2017 SmilingFace, Inc.
-      <a href="https://www.yelp.com/biz/smiling-faces-home-daycare-and-preschool-union-city" class="fa fa-yelp fa-5x wow fadeIn" data-wow-delay="0.3s"></a>
+      <a href="https://www.yelp.com/biz/smiling-faces-home-daycare-and-preschool-union-city" ><icon class="fa fa-yelp fa-2x wow fadeIn yelp"></icon></a>
     </footer>
 
 
@@ -154,5 +154,7 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+    <script src="js/validation.js"></script>
   </body>
 </html>
